@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open When You Miss Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const password = prompt("Enter the secret code 🗝️");
+      const correctPassword = "missyouboo";
+      if (password !== correctPassword) {
+        document.body.innerHTML = "<div style='text-align:center;padding:2rem;'>Wrong password 😢</div>";
+      }
+    });
+  </script>
+</head>
+<body>
+  <div class="hearts">
+    <div class="heart">💗</div>
+    <div class="heart">💖</div>
+    <div class="heart">💘</div>
+    <div class="heart">💝</div>
+    <div class="heart">💓</div>
+    <div class="heart">💕</div>
+  </div>
+  <div class="container">
+    <h1>Open When You Miss Me 😢</h1>
+    <p style="margin-top: 1.5rem; font-size: 1.1rem;">Missing me is just your heart reminding you how much we care. I'm right here — always. You're never alone. 💌</p>
+    <p style="margin-top: 2rem;"><a href="index.html">← Back to Moods</a></p>
+  </div>
+</body>
+</html>
